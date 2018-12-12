@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+data-raw/
+inst/doc
+revdep/checks
+revdep/library
+vignettes/*cache
+admin

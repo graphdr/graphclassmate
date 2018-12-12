@@ -1,0 +1,18 @@
+Package: graphclassmate
+Title: A Companion Package For Courses in Data Graphics
+Version: 0.1.0
+Language: en-US
+Authors@R: c(
+  person("Richard", "Layton", email = "graphdoctor@gmail.com", role = c("cre", "aut"))
+  )
+Description: Functions, data, and graph examples used in data visualization courses.  
+Depends: R (>= 3.5.0)
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 6.1.0
+VignetteBuilder: knitr
+Suggests:
+  knitr
+URL: https://github.com/graphdr/graphclassmate
+BugReports: https://github.com/graphdr/graphclassmate/issues

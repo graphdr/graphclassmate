@@ -1,0 +1,27 @@
+---
+title: "Data"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Data}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteEngine{knitr::rmarkdown}
+editor_options: 
+  chunk_output_type: console
+bibliography: ../inst/REFERENCES.bib
+---
+
+```{r eval = FALSE, echo = FALSE}
+# add to YAML when needed
+resource_files:
+  - ../man/figures/stickiness-fig1-1.png
+```
+
+Try the speed ski data 
+
+```{r}
+library(graphclassmate)
+data(speed_ski)
+
+str(speed_ski)
+```
+

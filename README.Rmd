@@ -1,0 +1,75 @@
+---
+output: github_document
+bibliography: inst/REFERENCES.bib
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(
+  # these options tend to vary from one Rmd to another
+  echo = TRUE,
+  fig.path = "man/figures/README-",
+  # these options tend to remain constant
+  collapse = TRUE,
+  comment = "#>",
+  message = FALSE,
+  warning = FALSE,
+  fig.width = 6,
+  fig.asp = 1 / 1.6,
+  out.width = "70%",
+  fig.align = "center",
+  # http://r-pkgs.had.co.nz/vignettes.html: error = TRUE captures errors in
+  # the block and shows them inline. This is useful for demonstrating what
+  # happens if code throws an error. If you use error = TRUE, set
+  # purl = FALSE. Vignettes are accompanied by files containing all the
+  # code from the vignette. purl = FALSE prevents the code from being
+  # inserted into that file
+  error = TRUE,
+  purl = FALSE
+)
+knitr::knit_hooks$set(inline = function(x) {
+  if (!is.numeric(x)) {
+    x
+  } else if (x >= 10000) {
+    prettyNum(round(x, 2), big.mark = ",")
+  } else {
+    prettyNum(round(x, 2))
+  }
+})
+options(tibble.print_min = 8L, tibble.print_max = 8L)
+```
+
+
+# graphclassmate
+
+A package for functions and data used in data visualization courses.
+
+
+
+## Installation
+
+The development version can be installed from GitHub.   
+
+```{r eval = FALSE}
+install.packages("devtools")
+devtools::install_github("graphdr/graphclassmate")
+```
+
+
+## Data
+
+The graphclassmate package includes: 
+
+
+
+## Usage
+
+Stuff
+
+## Meta
+
+- Get citation information with `citation("graphclassmate")` 
+- Please note that this project is released with a [Code of Conduct](). If you contribute to this project you agree to abide by its terms. 
+
+
