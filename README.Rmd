@@ -43,7 +43,7 @@ options(tibble.print_min = 8L, tibble.print_max = 8L)
 
 # graphclassmate
 
-A package for functions and data used in data visualization courses.
+An R package for functions, data, and graph examples used in data visualization courses.
 
 
 
@@ -70,6 +70,6 @@ Stuff
 ## Meta
 
 - Get citation information with `citation("graphclassmate")` 
-- Please note that this project is released with a [Code of Conduct](). If you contribute to this project you agree to abide by its terms. 
+- Please note that this project is released with a [Code of Conduct](https://github.com/graphdr/graphclassmate/blob/master/CONDUCT.md). If you contribute to this project you agree to abide by its terms. 
 
 

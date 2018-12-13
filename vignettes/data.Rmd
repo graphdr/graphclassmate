@@ -19,9 +19,7 @@ resource_files:
 Try the speed ski data 
 
 ```{r}
-library(graphclassmate)
-data(speed_ski)
-
+library("graphclassmate")
 str(speed_ski)
 ```
 

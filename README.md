@@ -3,7 +3,8 @@
 
 # graphclassmate
 
-A package for functions and data used in data visualization courses.
+An R package for functions, data, and graph examples used in data
+visualization courses.
 
 ## Installation
 
@@ -26,5 +27,5 @@ Stuff
 
   - Get citation information with `citation("graphclassmate")`
   - Please note that this project is released with a [Code of
-    Conduct](). If you contribute to this project you agree to abide by
-    its terms.
+    Conduct](https://github.com/graphdr/graphclassmate/blob/master/CONDUCT.md).
+    If you contribute to this project you agree to abide by its terms.

@@ -3,23 +3,30 @@
 \docType{data}
 \name{speed_ski}
 \alias{speed_ski}
-\title{Speed skiing data data}
-\format{A tidy data frame (tibble) with 1546 observations and 6 variables.
-All variables are characters. An observation is a unique program.
+\title{Speed skiing data}
+\format{A tidy data frame (tibble) with 91 observations and 3 variables.
+    An observation is a unique person in an event.
+    
 \describe{
-  \item{event}{One of three downhill events: speed downhill, speed downhill junior or speed one.}
-  \item{sex}{Female or Male.}
-  \item{speed}{Speed achieved in km/hr.}
+  \item{event}{One of three downhill events: Speed Downhill, Speed Downhill 
+  Junior, and Speed One.}
+  \item{sex}{Female or male.}
+  \item{speed}{Speed in km/hr.}
 }}
 \source{
-Based on the data from GDAdata
+GDAdata package https://CRAN.R-project.org/package=GDAdata
 }
 \usage{
 speed_ski
 }
 \description{
 A dataset of the speed of skiers from the downhill events in the 2011 world
-championships. Adapted from the GDAdata package.
+championships.
+}
+\details{
+These data are a subset of the \code{SpeedSki} dataset in the GDAdata 
+package, arranged for ease of use in demonstrating graphs for 
+univariate data.
 }
 \examples{
 data(speed_ski, package="graphclassmate")
