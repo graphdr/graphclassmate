@@ -16,10 +16,19 @@ resource_files:
   - ../man/figures/stickiness-fig1-1.png
 ```
 
-Try the speed ski data 
+
+```{r echo = FALSE}
+library("knitr")
+opts_knit$set(root.dir = "../")
+opts_chunk$set(echo = FALSE, collapse = TRUE, message = FALSE, warning = FALSE)
+```
+
+
+
+Data available in graphclassmate.
 
 ```{r}
-library("graphclassmate")
-str(speed_ski)
+d <- data(package = "graphclassmate")[["results"]]
+knitr::kable(d[ , c("Item", "Title")])
 ```
 

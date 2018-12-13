@@ -1,10 +1,11 @@
-#' Named colors from the ColorBrewer palettes
+#' Shorthand names for selected colors from RColorBrewer 
 #'
-#' Shorthand color names assigned to selected colors from the ColorBrewer palettes.
+#' This dataset provides convenient access to selected ColorBrewer palettes: 
+#' diverging brown-bluegreen (BrBG) with 8 levels; diverging purple-green (PRGn) 
+#' with 8 levels; and sequential gray (Greys) with the middle four of 6 levels.
 #'
-#' This dataset provides convenient access to selected ColorBrewer palettes: diverging brown-bluegreen (BrBG) with 8 levels; diverging purple-green (PRGn) with 8 levels; and sequential gray (Greys) with the middle four of 6 levels.
-#'
-#' The color names have the form "level_hue" with 4 saturation levels (dark, mid, light, pale) and 5 hues (Br, BG, PR, Gn, Gray or Grey).
+#' The color names have the form "level_hue" with 4 saturation levels (dark, mid, 
+#' light, pale) and 5 hues (Br, BG, PR, Gn, Gray or Grey).
 #'
 #' @format A data frame with columns:
 #' \describe{
@@ -20,7 +21,7 @@
 
 
 
-#' Speed skiing data 
+#' Speed skiing data from GDAdata  
 #'
 #' A dataset of the speed of skiers from the downhill events in the 2011 world
 #' championships. 

@@ -3,7 +3,7 @@
 \docType{data}
 \name{speed_ski}
 \alias{speed_ski}
-\title{Speed skiing data}
+\title{Speed skiing data from GDAdata}
 \format{A tidy data frame (tibble) with 91 observations and 3 variables.
     An observation is a unique person in an event.
     

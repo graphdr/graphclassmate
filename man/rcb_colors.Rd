@@ -3,7 +3,7 @@
 \docType{data}
 \name{rcb_colors}
 \alias{rcb_colors}
-\title{Named colors from the ColorBrewer palettes}
+\title{Shorthand names for selected colors from RColorBrewer}
 \format{A data frame with columns:
 \describe{
   \item{rcb_name}{Character variable of names.}
@@ -16,12 +16,13 @@ Cynthia Brewer (\url{http://colorbrewer2.org}) and RColorBrewer  (\url{https://c
 rcb_colors
 }
 \description{
-Shorthand color names assigned to selected colors from the ColorBrewer palettes.
+This dataset provides convenient access to selected ColorBrewer palettes: 
+diverging brown-bluegreen (BrBG) with 8 levels; diverging purple-green (PRGn) 
+with 8 levels; and sequential gray (Greys) with the middle four of 6 levels.
 }
 \details{
-This dataset provides convenient access to selected ColorBrewer palettes: diverging brown-bluegreen (BrBG) with 8 levels; diverging purple-green (PRGn) with 8 levels; and sequential gray (Greys) with the middle four of 6 levels.
-
-The color names have the form "level_hue" with 4 saturation levels (dark, mid, light, pale) and 5 hues (Br, BG, PR, Gn, Gray or Grey).
+The color names have the form "level_hue" with 4 saturation levels (dark, mid, 
+light, pale) and 5 hues (Br, BG, PR, Gn, Gray or Grey).
 }
 \examples{
 rcb_colors
