@@ -35,7 +35,7 @@ ggplot(data = mpg, aes(x = displ, y = hwy)) +
   theme_graphclass()
 ```
 
-<img src="man/figures/README-darkBG-1.png" width="100%" style="display: block; margin: auto;" />
+<img src="man/figures/README-darkBG-1.png" width="70%" style="display: block; margin: auto;" />
 
 `theme_graphclass()` is a variation on `ggplot2::theme_minimal()` with
 all panel and axis text set to the same font face and size and all grid
