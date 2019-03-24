@@ -50,10 +50,12 @@ d <- data(package = "graphclassmate")[["results"]]
 knitr::kable(d[ , c("Item", "Title")])
 ```
 
-| Item        | Title                                                 |
-| :---------- | :---------------------------------------------------- |
-| rcb\_colors | Shorthand names for selected colors from RColorBrewer |
-| speed\_ski  | Speed skiing data from GDAdata                        |
+| Item             | Title                                                 |
+| :--------------- | :---------------------------------------------------- |
+| metro\_pop       | Population in the NY metro area                       |
+| museum\_exhibits | Visit duration at museum exhibitions                  |
+| nontraditional   | Nontraditional and traditional undergraduates         |
+| rcb\_colors      | Shorthand names for selected colors from RColorBrewer |
 
 The data sets are for illustrating different graph designs, e.g., box
 plots, multiways, scatterplots, dot plots, conditioning plots,

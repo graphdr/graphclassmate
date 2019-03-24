@@ -4,12 +4,15 @@
 \alias{theme_graphclass}
 \title{ggplot theme based on theme_minimal}
 \usage{
-theme_graphclass(font_size = NULL, line_size = NULL,
-  line_color = NULL)
+theme_graphclass(font_size = NULL, font_color = NULL,
+  line_size = NULL, line_color = NULL)
 }
 \arguments{
 \item{font_size}{The size assigned to all text in the figure. 
 The default is 10 pt.}
+
+\item{font_color}{The color assigned to all text in the figure. 
+The default is black.}
 
 \item{line_size}{The size assigned to all lines in the figure. 
 The default is 0.3.}
@@ -22,14 +25,14 @@ Modifies an existing graph.
 }
 \description{
 Applies \code{ggplot2::theme_minimal()} with some edits such that all line 
-  weights and colors and all text associated with the panels and axes are 
-  identical.
+       weights and colors and all text associated with the panels and axes 
+       are identical.
 }
 \details{
 Optional arguments allow specifiying a universal font size, line size, and 
-  line color, facilitating an easy transformation of a figure from a print 
-  document to a presentation slide. 
+       line color, facilitating an easy transformation of a figure from a 
+       print document to a presentation slide. 
   
 The formatting choices are highly personal, but in my opinion, provide a 
-  good standard not met by themes available in other packages.
+        good standard not met by themes available in other packages.
 }
