@@ -4,7 +4,7 @@ Version: 0.1.0.9000
 Language: en-US
 Authors@R: c(person("Richard", "Layton", email = "graphdoctor@gmail.com", role = c("cre", "aut")))
 Description: An R package with companion materials for a course in data visualization. The package provides data sets structured for a variety of graph types plus a ggplot2 theme.  
-Depends: R (>= 3.5.0)
+Depends: R (>= 3.3.0)
 License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: TRUE
