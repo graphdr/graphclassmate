@@ -125,3 +125,29 @@
 #' data(ucb_admit, package="graphclassmate")
 #' ucb_admit 
 "ucb_admit"
+
+
+
+
+
+#' Infant births and deaths in the US 
+#' 
+#' A data set  
+#' 
+#' These data are based on  
+#'
+#' @format A tidy data frame (tibble) with 12,12 observations and 6 variables.
+#'     
+#' \describe{
+#'   \item{region}{US census region}
+#'   \item{county}{US county FIPS code}
+#'   \item{race}{Race or ethnicity}
+#'   \item{age}{Age group of the mother}
+#'   \item{deaths}{The number of infant deaths}
+#'   \item{births}{The number of births}
+#'   
+#' @source CDC
+#' @examples
+#' data(cdc_infant_death, package="graphclassmate")
+#' cdc_infant_death 
+"cdc_infant_death"
