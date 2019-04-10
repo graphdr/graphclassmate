@@ -9,7 +9,7 @@ NULL
 #'        are identical. 
 #'
 #' @details    
-#' Optional arguments allow specifiying a universal font size, line size, and 
+#' Optional arguments allow specifying a universal font size, line size, and 
 #'        line color, facilitating an easy transformation of a figure from a 
 #'        print document to a presentation slide. 
 #'   

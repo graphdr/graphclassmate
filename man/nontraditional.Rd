@@ -32,7 +32,7 @@ necessarily in engineering.
 The data subset excludes the 10th and 90th deciles of years enrolled.
 }
 \examples{
-data(nontraditional, package="graphclassmate")
+data(nontraditional, package = "graphclassmate")
 nontraditional
 }
 \keyword{datasets}

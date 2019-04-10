@@ -25,7 +25,7 @@ These data are simulated to approximate the data shown in Figure 4.10 in
 Robbins (2013). The original data were not readily available.
 }
 \examples{
-data(museum_exhibits, package="graphclassmate")
+data(museum_exhibits, package = "graphclassmate")
 museum_exhibits
 }
 \keyword{datasets}

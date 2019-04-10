@@ -30,7 +30,7 @@ variable \code{applied} is the sum of the number of students admitted and
 the number of students rejected by each department.
 }
 \examples{
-data(ucb_admit, package="graphclassmate")
+data(ucb_admit, package = "graphclassmate")
 ucb_admit 
 }
 \keyword{datasets}

@@ -20,13 +20,13 @@ metro_pop
 }
 \description{
 A data set of population in the New York metropolitan area by county and 
-race/ethinicty from the 2000 census.
+race/ethnicity from the 2000 census.
 }
 \details{
 These data are taken from section 8.5 in Robbins (2013).
 }
 \examples{
-data(metro_pop, package="graphclassmate")
+data(metro_pop, package = "graphclassmate")
 metro_pop
 }
 \keyword{datasets}

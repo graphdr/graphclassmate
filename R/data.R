@@ -38,7 +38,7 @@
 #' }
 #' @source \code{r-graph-catalog} by Joanna Zhao and Jenny Bryan, https://github.com/jennybc/r-graph-catalog
 #' @examples
-#' data(museum_exhibits, package="graphclassmate")
+#' data(museum_exhibits, package = "graphclassmate")
 #' museum_exhibits
 "museum_exhibits"
 
@@ -67,7 +67,7 @@
 #' }
 #' @source MIDFIELD https://engineering.purdue.edu/MIDFIELD
 #' @examples
-#' data(nontraditional, package="graphclassmate")
+#' data(nontraditional, package = "graphclassmate")
 #' nontraditional
 "nontraditional"
 
@@ -78,7 +78,7 @@
 #' Population in the NY metro area  
 #'
 #' A data set of population in the New York metropolitan area by county and 
-#' race/ethinicty from the 2000 census. 
+#' race/ethnicity from the 2000 census. 
 #' 
 #' These data are taken from section 8.5 in Robbins (2013).   
 #'
@@ -92,7 +92,7 @@
 #' }
 #' @source \code{r-graph-catalog} by Joanna Zhao and Jenny Bryan, https://github.com/jennybc/r-graph-catalog
 #' @examples
-#' data(metro_pop, package="graphclassmate")
+#' data(metro_pop, package = "graphclassmate")
 #' metro_pop
 "metro_pop"
 
@@ -122,7 +122,7 @@
 #' }
 #' @source Base R. 
 #' @examples
-#' data(ucb_admit, package="graphclassmate")
+#' data(ucb_admit, package = "graphclassmate")
 #' ucb_admit 
 "ucb_admit"
 
@@ -130,24 +130,40 @@
 
 
 
-#' Infant births and deaths in the US 
+#' Infant births and deaths in the US, 2007-2016
 #' 
-#' A data set  
+#' CDC linked birth and infant death records in the US from 2007 to 2016. 
 #' 
-#' These data are based on  
+#' The CDC data set includes US counties encoded by the 5-digit Federal 
+#' Information Processing Specification (FIPS) county codes--codes that were 
+#' superseded in 2009 by the INCITS 31 codes. County-level data are shown only 
+#' for counties with populations of 250,000 or more. Because of population 
+#' changes, data is not available for all counties in all years. 
+#' 
+#' Race/ethnicity data are grouped and summarized into 5 levels: Amerind for 
+#' indigenous peoples excluding Native Hawaiians, Asian/PI for people of Asian 
+#' and Pacific Islander descent, Black for African Americans, Hispanic for 
+#' people of Latin American descent, and White. 
 #'
-#' @format A tidy data frame (tibble) with 12,12 observations and 6 variables.
+#' @format A tidy data frame (tibble) with 12,120 observations and 6 variables.
 #'     
 #' \describe{
-#'   \item{region}{US census region}
-#'   \item{county}{US county FIPS code}
-#'   \item{race}{Race or ethnicity}
-#'   \item{age}{Age group of the mother}
-#'   \item{deaths}{The number of infant deaths}
-#'   \item{births}{The number of births}
+#'   \item{region}{Geographical regions of the US as denoted by the federal 
+#'   census: CENS-R1 (Northeast), CENS-R2 (Midwest), CENS-R3 (South), 
+#'   and CENS-R4 (West).}
+#'   \item{county}{US counties encoded by a 5-digit number (FIPS code) which 
+#'   uniquely identified 303 counties and county equivalents.}
+#'   \item{race}{Race or ethnicity: Amerind, Asian/PI, Black, Hispanic, White.}
+#'   \item{age}{Age group of the mother: 15, 15-19, 20-24, 25-29, 30-34, 35-39, 
+#'   40-44, 45-49. These bins were selected by the CDC.}
+#'   \item{deaths}{The number of deaths of infants less than a year old, 
+#'   2007--2016.}
+#'   \item{births}{The number of births, 2007--2016.}
+#'   }
 #'   
-#' @source CDC
+#' @source US Centers for Disease Control and Prevention (CDC) WONDER online 
+#'     database, https://wonder.cdc.gov/controller/datarequest/D69
 #' @examples
-#' data(cdc_infant_death, package="graphclassmate")
-#' cdc_infant_death 
-"cdc_infant_death"
+#' data(linked_birth_infant_death, package = "graphclassmate")
+#' linked_birth_infant_death 
+"linked_birth_infant_death"
